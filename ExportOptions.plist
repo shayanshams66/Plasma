@@ -9,7 +9,7 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://shayanshams66.github.io/Plasma/Safe_plasma</string>
+		<string>https://shayanshams66.github.io/Plasma/SAFE_Plasma_Donation.ipa</string>
 		<key>displayImageURL</key>
 		<string>https://shayanshams66.github.io/Plasma/Icon-57.png</string>
 		<key>fullSizeImageURL</key>
@@ -17,8 +17,15 @@
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>SAFE.SAFE-Plasma-Donation</key>
+		<string>Safe_Plasma</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>89E0440A8F9B45DE13D75E2A03C7D9316F88C297</string>
 	<key>signingStyle</key>
-	<string>automatic</string>
+	<string>manual</string>
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
