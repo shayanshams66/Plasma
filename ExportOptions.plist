@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>destination</key>
+	<string>export</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://shayanshams66.github.io/app/SAFE_Social_Distancing.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://shayanshams66.github.io/app/icon.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://shayanshams66.github.io/app/COVIDweb_avoidCloseContact_masks_rect-01.png</string>
+	</dict>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>SAFE.SAFE-Social-Distancing</key>
+		<string>safe_Social</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>Apple Distribution</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>HR33H5WN2Y</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
